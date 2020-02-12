@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<script src="./js/myjs.js"></script>
+</head>
+<body style="background:blue; background-image: url(https://img2.10bestmedia.com/Images/Photos/352449/GettyImages-467961250_54_990x660.jpg); background-size: cover; text-align: center;">
+	<div style="text-align: center; height: 400px; width: 350px; position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;background-color: gray">
+		<div style="position: relative; margin-top: 60px; font-weight: bold; font-size: 25px"> Please enter your login credentials</div>
+		<br><br>
+		<form id="myForm" method="post">
+			<p> <input type="text" id="myUsrname" name="usrname" placeholder="Username" required/>
+			</p>
+			<p> <input type="password" id="myPassword" name="password" placeholder="Password" required/>
+			</p>
+			<br>
+			<button type="submit" onclick="authenticate()">Login</button>
+		</form>
+	</div>
+	
+</body>
+</html>
